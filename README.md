@@ -101,4 +101,6 @@ Un file HTML (`mappa_super_basilicata_finale_v3.html` o simile) contenente la ma
 
 ---
 
+CODICE SCRITTO CON L'AIUTO DI GEMINI (GOOGLE)
+
 *(Puoi aggiungere qui informazioni su Licenza, Contatti, Come Contribuire, ecc. se lo desideri)*
