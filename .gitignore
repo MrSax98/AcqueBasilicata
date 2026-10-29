@@ -172,3 +172,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Output generato
+mappa_basilicata.html
+miei_disegni.geojson
