@@ -1,0 +1,80 @@
+{
+ "Bradano": {
+  "color": "#1f78b4",
+  "weight": 3,
+  "opacity": 0.85,
+  "coords": []
+ },
+ "Basento": {
+  "color": "#33a02c",
+  "weight": 3,
+  "opacity": 0.85,
+  "coords": []
+ },
+ "Cavone": {
+  "color": "#e31a1c",
+  "weight": 3,
+  "opacity": 0.85,
+  "coords": []
+ },
+ "Agri": {
+  "color": "#ff7f00",
+  "weight": 3,
+  "opacity": 0.85,
+  "coords": []
+ },
+ "Sinni": {
+  "color": "#6a3d9a",
+  "weight": 3,
+  "opacity": 0.85,
+  "coords": []
+ },
+ "Noce": {
+  "color": "#fb9a99",
+  "weight": 2.5,
+  "opacity": 0.75,
+  "coords": []
+ },
+ "Torrente Sauro": {
+  "color": "#a6cee3",
+  "weight": 1.5,
+  "opacity": 0.7,
+  "coords": []
+ },
+ "Torrente Sarmento": {
+  "color": "#a6cee3",
+  "weight": 1.5,
+  "opacity": 0.7,
+  "coords": []
+ },
+ "Torrente Camastra": {
+  "color": "#a6cee3",
+  "weight": 1.5,
+  "opacity": 0.7,
+  "coords": []
+ },
+ "Fiumarella di Genzano": {
+  "color": "#a6cee3",
+  "weight": 1.5,
+  "opacity": 0.7,
+  "coords": []
+ },
+ "Torrente Cogliandrino": {
+  "color": "#a6cee3",
+  "weight": 1.5,
+  "opacity": 0.7,
+  "coords": []
+ },
+ "Torrente Basentello": {
+  "color": "#a6cee3",
+  "weight": 1.5,
+  "opacity": 0.7,
+  "coords": []
+ },
+ "Torrente Rendina": {
+  "color": "#a6cee3",
+  "weight": 1.5,
+  "opacity": 0.7,
+  "coords": []
+ }
+}

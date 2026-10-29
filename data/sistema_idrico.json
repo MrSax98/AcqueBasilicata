@@ -1,0 +1,603 @@
+{
+ "centro": [
+  40.5,
+  16.05
+ ],
+ "dighe": {
+  "Monte Cotugno": {
+   "coords": [
+    40.145,
+    16.3
+   ],
+   "fiume": "Sinni",
+   "capacita": "433 Mmc",
+   "anno": "1983",
+   "tipo": "Terra",
+   "uso": "Plurimo",
+   "gestore": "EIPLI (presunto)",
+   "schema": "Jonico-Sinni (Sub: Sinni)",
+   "status": "Esercizio Sperimentale (nel PDF)",
+   "connections": "Riceve da Traverse Agri, Sauro, Sarmento. Alimenta Adduttore del Sinni (\"Canna del Sinni\").",
+   "note": "Più grande diga in terra d'Europa. Nodo schema Jonico-Sinni."
+  },
+  "Pertusillo": {
+   "coords": [
+    40.258,
+    16.045
+   ],
+   "fiume": "Agri",
+   "capacita": "143 Mmc",
+   "anno": "1963",
+   "tipo": "Muraria a volta ad arco a gravità",
+   "uso": "Plurimo (Idroelettrico, Potabile Puglia, Irriguo)",
+   "gestore": "EIPLI (presunto)",
+   "schema": "Jonico-Sinni (Sub: Agri)",
+   "status": "Normale (implicito)",
+   "connections": "Alimenta Centrale Missanello -> Potab. Missanello / Rilasci per Traversa Agri / Diga Gannano.",
+   "note": "Nodo principale sub-schema Agri."
+  },
+  "San Giuliano": {
+   "coords": [
+    40.63,
+    16.62
+   ],
+   "fiume": "Bradano",
+   "capacita": "107 Mmc (da quarry.pdf)",
+   "anno": "1955",
+   "tipo": "Calcestruzzo a gravità massiccia",
+   "uso": "Irriguo (Metapontino, Puglia)",
+   "gestore": "Consorzio Bonifica Bradano e Metaponto",
+   "schema": "Jonico-Sinni (Sub: Basso Bradano)",
+   "status": "Esercizio Normale",
+   "connections": "Collegato (teoricamente) a Adduttore del Sinni via Ginosa (Adduttore Ginosa-S.Giuliano, non funzionante nel PDF).",
+   "note": ""
+  },
+  "Camastra": {
+   "coords": [
+    40.555,
+    15.98
+   ],
+   "fiume": "Torrente Camastra (affl. Basento)",
+   "capacita": "23.6 Mmc",
+   "anno": "Fine anni '60",
+   "tipo": "Materiale sciolto, zonata",
+   "uso": "Plurimo (Potabile PZ, Irriguo, Industriale Val Basento)",
+   "gestore": "EIPLI (presunto)",
+   "schema": "Basento-Bradano",
+   "status": "Esercizio Sperimentale (nel PDF)",
+   "connections": "Alimenta Stazione Pompaggio -> Potab. Romaniello. Rilascia per Traversa Orto del Tufo. Previsto collegamento a Traversa Trivigno.",
+   "note": ""
+  },
+  "Acerenza": {
+   "coords": [
+    40.8,
+    15.92
+   ],
+   "fiume": "Bradano",
+   "capacita": "38.5 Mmc",
+   "anno": "1994",
+   "tipo": "Materiale sciolto, zonata",
+   "uso": "Irriguo (previsto)",
+   "gestore": "EIPLI (presunto)",
+   "schema": "Basento-Bradano",
+   "status": "Non in esercizio (nel PDF)",
+   "connections": "Riceve da Traversa Trivigno via Adduttore (~23km). Collega a Diga Genzano via Adduttore (~14km).",
+   "note": ""
+  },
+  "Genzano": {
+   "coords": [
+    40.86,
+    16.01
+   ],
+   "fiume": "Fiumarella di Genzano",
+   "capacita": "52.95 Mmc",
+   "anno": "1997",
+   "tipo": "Materiale sciolto, zonata",
+   "uso": "Irriguo (previsto)",
+   "gestore": "EIPLI (presunto)",
+   "schema": "Basento-Bradano",
+   "status": "Non in esercizio (nel PDF)",
+   "connections": "Riceve da Diga Acerenza via Adduttore. Previsto collegamento a Diga Serra del Corvo.",
+   "note": ""
+  },
+  "Pantano di Pignola": {
+   "coords": [
+    40.59,
+    15.75
+   ],
+   "fiume": "Alto Basento",
+   "capacita": "4.5 Mmc",
+   "anno": "1981",
+   "tipo": "N/D",
+   "uso": "Industriale (ASI Potenza/Tito)",
+   "gestore": "ASI Potenza",
+   "schema": "Basento-Bradano",
+   "status": "Normale (implicito)",
+   "connections": "",
+   "note": ""
+  },
+  "Serra del Corvo (Basentello)": {
+   "coords": [
+    40.97,
+    16.1
+   ],
+   "fiume": "Torrente Basentello",
+   "capacita": "28.1 Mmc",
+   "anno": "1974",
+   "tipo": "N/D",
+   "uso": "Irriguo (Consorzio Bradano Metaponto)",
+   "gestore": "EIPLI (presunto)",
+   "schema": "Basento-Bradano",
+   "status": "Esercizio Sperimentale (nel PDF)",
+   "connections": "Previsto collegamento da Diga Genzano.",
+   "note": "Situato confine Basilicata/Puglia."
+  },
+  "Masseria Nicodemo (Cogliandrino)": {
+   "coords": [
+    40.05,
+    16.1
+   ],
+   "fiume": "Sinni (confluenza T. Cogliandrino)",
+   "capacita": "~10 Mmc",
+   "anno": "1975",
+   "tipo": "N/D",
+   "uso": "Idroelettrico",
+   "gestore": "ENEL S.p.A.",
+   "schema": "Jonico-Sinni (Sub: Sinni-Noce)",
+   "status": "Esercizio Normale (gestione ENEL)",
+   "connections": "Alimenta Centrale Castrocucco (via adduttore ~15km).",
+   "note": "Uso sospeso per emergenza idrica 2002."
+  },
+  "Marsico Nuovo": {
+   "coords": [
+    40.42,
+    15.73
+   ],
+   "fiume": "Agri",
+   "capacita": "~5 Mmc",
+   "anno": "1996",
+   "tipo": "N/D",
+   "uso": "Irriguo (regolazione portate)",
+   "gestore": "EIPLI (presunto)",
+   "schema": "Jonico-Sinni (Sub: Agri)",
+   "status": "Esercizio Sperimentale (nel PDF)",
+   "connections": "A monte del Pertusillo.",
+   "note": ""
+  },
+  "Gannano": {
+   "coords": [
+    40.29,
+    16.31
+   ],
+   "fiume": "Agri",
+   "capacita": "~3 Mmc",
+   "anno": "1959",
+   "tipo": "N/D",
+   "uso": "Irriguo",
+   "gestore": "EIPLI (presunto)",
+   "schema": "Jonico-Sinni (Sub: Agri)",
+   "status": "Normale (implicito)",
+   "connections": "Intercetta rilasci Pertusillo/Centrale Missanello e fluenze interbacino.",
+   "note": ""
+  },
+  "Abate Alonia (Rendina)": {
+   "coords": [
+    41.05,
+    15.8
+   ],
+   "fiume": "Torrente Rendina",
+   "capacita": "14 Mmc",
+   "anno": "N/D",
+   "tipo": "N/D",
+   "uso": "Irriguo-Industriale",
+   "gestore": "N/D",
+   "schema": "Ofanto",
+   "status": "Sperimentale (da quarry.pdf)",
+   "connections": "",
+   "note": "Schema Ofanto (info da quarry.pdf)"
+  }
+ },
+ "traverse": {
+  "Santa Venere": {
+   "coords": [
+    41.085,
+    15.76
+   ],
+   "fiume": "Ofanto",
+   "funzione": "Snodo Schema Ofanto, ripartizione acque",
+   "stato": "Normale (da quarry.pdf)",
+   "schema": "Ofanto",
+   "note": "Alimenta invasi e comprensori irrigui (Puglia/Basilicata). (Info da quarry.pdf)"
+  },
+  "Trivigno": {
+   "coords": [
+    40.61,
+    16.0
+   ],
+   "fiume": "Basento",
+   "funzione": "Trasferimento acque a invasi Acerenza/Genzano (via Adduttore)",
+   "stato": "Realizzata 2000",
+   "schema": "Basento-Bradano",
+   "note": "Portata max galleria: 10 mc/s."
+  },
+  "Sauro": {
+   "coords": [
+    40.2,
+    16.16
+   ],
+   "fiume": "Torrente Sauro",
+   "funzione": "Convoglia acque a M. Cotugno (via Gronda/Adduttore Sauro-Agri?)",
+   "stato": "In esercizio (dal 2002?)",
+   "schema": "Jonico-Sinni (Sub: Sinni)",
+   "note": "Portata max: 12 mc/s."
+  },
+  "Agri (Traversa)": {
+   "coords": [
+    40.23,
+    16.22
+   ],
+   "fiume": "Agri",
+   "funzione": "Convoglia acque a M. Cotugno (via Gronda/Adduttore Agri-Sinni)",
+   "stato": "In esercizio (dal 1989?)",
+   "schema": "Jonico-Sinni (Sub: Sinni)",
+   "note": "Portata max: 18 mc/s. A valle di Missanello."
+  },
+  "Sarmento": {
+   "coords": [
+    40.08,
+    16.3
+   ],
+   "fiume": "Torrente Sarmento",
+   "funzione": "Convoglia acque a M. Cotugno (via Adduttore Sarmento-Sinni)",
+   "stato": "In completamento (nel PDF)",
+   "schema": "Jonico-Sinni (Sub: Sinni)",
+   "note": "Portata max: 25 mc/s."
+  },
+  "Orto del Tufo": {
+   "coords": [
+    40.55,
+    16.35
+   ],
+   "fiume": "Basento",
+   "funzione": "Derivazione per usi industriali Val Basento (ASI Matera)",
+   "stato": "Esistente",
+   "schema": "Basento-Bradano",
+   "note": "Portata max derivabile: 2 mc/s. Riceve rilasci Camastra/Trivigno."
+  }
+ },
+ "citta": {
+  "Potenza": {
+   "coords": [
+    40.639,
+    15.805
+   ],
+   "desc": "<b>Potenza</b><br>Capoluogo di Regione"
+  },
+  "Matera": {
+   "coords": [
+    40.667,
+    16.604
+   ],
+   "desc": "<b>Matera</b><br>Capoluogo di Provincia"
+  }
+ },
+ "potabilizzatori": {
+  "Masseria Romaniello": {
+   "coords": [
+    40.65,
+    15.83
+   ],
+   "servizio": "Potenza e provincia",
+   "alimentato_da": "Diga del Camastra (via Stazione Pompaggio)",
+   "schema": "Basento-Bradano"
+  },
+  "Missanello": {
+   "coords": [
+    40.28,
+    16.08
+   ],
+   "servizio": "Territorio Pugliese",
+   "alimentato_da": "Centrale Idroelettrica Missanello (da Diga Pertusillo)",
+   "schema": "Jonico-Sinni (Sub: Agri)"
+  }
+ },
+ "centrali": {
+  "Missanello (Centrale)": {
+   "coords": [
+    40.27,
+    16.07
+   ],
+   "fiume": "Agri (derivazione da Pertusillo)",
+   "alimenta": "Potabilizzatore Missanello / Rilasci in alveo (per Traversa Agri/Diga Gannano)",
+   "gestore": "ENEL (presunto, gestisce adduttore)",
+   "schema": "Jonico-Sinni (Sub: Agri)"
+  },
+  "Castrocucco": {
+   "coords": [
+    39.99,
+    15.8
+   ],
+   "fiume": "Noce (riceve da Diga Nicodemo/Sinni)",
+   "alimentato_da": "Diga Masseria Nicodemo (via adduttore ~15km)",
+   "gestore": "ENEL S.p.A.",
+   "schema": "Jonico-Sinni (Sub: Sinni-Noce)"
+  }
+ },
+ "bacini": {
+  "Bradano": {
+   "coords": [
+    40.7,
+    16.4
+   ],
+   "area_kmq": "~3000",
+   "foce": "Mar Jonio",
+   "interregionale": "Sì (Basilicata 66%, Puglia 34%)",
+   "note": "Il bacino idrografico più esteso."
+  },
+  "Basento": {
+   "coords": [
+    40.5,
+    16.3
+   ],
+   "area_kmq": "~1535",
+   "foce": "Mar Jonio",
+   "interregionale": "No (Totalmente in Basilicata)",
+   "note": ""
+  },
+  "Cavone": {
+   "coords": [
+    40.35,
+    16.5
+   ],
+   "area_kmq": "~684",
+   "foce": "Mar Jonio",
+   "interregionale": "No (Totalmente in Basilicata)",
+   "note": ""
+  },
+  "Agri": {
+   "coords": [
+    40.25,
+    16.2
+   ],
+   "area_kmq": "~1723",
+   "foce": "Mar Jonio",
+   "interregionale": "No (Totalmente in Basilicata)",
+   "note": ""
+  },
+  "Sinni": {
+   "coords": [
+    40.15,
+    16.4
+   ],
+   "area_kmq": "~1360",
+   "foce": "Mar Jonio",
+   "interregionale": "Sì (Basilicata 96%, Calabria 4%)",
+   "note": ""
+  },
+  "Noce": {
+   "coords": [
+    40.05,
+    15.8
+   ],
+   "area_kmq": "~380",
+   "foce": "Mar Tirreno",
+   "interregionale": "Sì (Basilicata 78%, Calabria 22%)",
+   "note": "Unico dei principali a sfociare nel Tirreno."
+  },
+  "Bacini Minori Tirrenici": {
+   "coords": [
+    40.1,
+    15.7
+   ],
+   "area_kmq": "~40",
+   "foce": "Mar Tirreno",
+   "interregionale": "Sì (Confine Campania)",
+   "note": "Corsi d'acqua minori."
+  },
+  "Torrente San Nicola": {
+   "coords": [
+    40.0,
+    16.6
+   ],
+   "area_kmq": "~85",
+   "foce": "Mar Jonio",
+   "interregionale": "Sì (Basilicata 87%, Calabria 13%)",
+   "note": "Bacino minore confine Calabria."
+  }
+ },
+ "foci": {
+  "Foce Bradano": {
+   "coords": [
+    40.4,
+    16.86
+   ],
+   "fiume": "Bradano",
+   "mare": "Jonio"
+  },
+  "Foce Basento": {
+   "coords": [
+    40.38,
+    16.82
+   ],
+   "fiume": "Basento",
+   "mare": "Jonio"
+  },
+  "Foce Cavone": {
+   "coords": [
+    40.28,
+    16.77
+   ],
+   "fiume": "Cavone",
+   "mare": "Jonio"
+  },
+  "Foce Agri": {
+   "coords": [
+    40.2,
+    16.73
+   ],
+   "fiume": "Agri",
+   "mare": "Jonio"
+  },
+  "Foce Sinni": {
+   "coords": [
+    40.15,
+    16.7
+   ],
+   "fiume": "Sinni",
+   "mare": "Jonio"
+  },
+  "Foce Noce": {
+   "coords": [
+    39.98,
+    15.79
+   ],
+   "fiume": "Noce",
+   "mare": "Tirreno"
+  }
+ },
+ "punti_extra": {
+  "Metaponto Lido": {
+   "coords": [
+    40.38,
+    16.8
+   ],
+   "desc": "<b>Metaponto Lido</b><br>Area costiera Jonica interessata da fenomeni di erosione, potenzialmente collegati alla riduzione del trasporto solido fluviale (Fonte: quarry.pdf).",
+   "icon": {
+    "color": "darkred",
+    "icon": "glyphicon-warning-sign"
+   }
+  },
+  "Policoro Lido": {
+   "coords": [
+    40.18,
+    16.68
+   ],
+   "desc": "<b>Policoro Lido</b><br>Area costiera Jonica interessata da fenomeni di erosione, potenzialmente collegati alla riduzione del trasporto solido fluviale (Fonte: quarry.pdf).",
+   "icon": {
+    "color": "darkred",
+    "icon": "glyphicon-warning-sign"
+   }
+  },
+  "Nodo di Ginosa": {
+   "coords": [
+    40.55,
+    16.85
+   ],
+   "desc": "<b>Nodo di Ginosa (Puglia)</b><br>Importante nodo di smistamento dell'acqua proveniente dall'Adduttore del Sinni (Monte Cotugno). Collega (teoricamente) a San Giuliano. (Fonte: sistema_idrico.pdf, Grafico 2)",
+   "icon": {
+    "color": "purple",
+    "icon": "glyphicon-road"
+   }
+  },
+  "Potab. Parco d. Marchese": {
+   "coords": [
+    40.5,
+    17.15
+   ],
+   "desc": "<b>Potabilizzatore Parco del Marchese (Taranto, Puglia)</b><br>Riceve acqua dall'Adduttore del Sinni e Pertusillo via Ginosa per servire l'area di Taranto e il Salento. (Fonte: Grafico 2)",
+   "icon": {
+    "color": "orange",
+    "icon": "glyphicon-filter"
+   }
+  },
+  "Area ILVA Taranto": {
+   "coords": [
+    40.48,
+    17.2
+   ],
+   "desc": "<b>Area ILVA (Taranto, Puglia)</b><br>Importante utente industriale servito dal sistema idrico. (Fonte: Grafico 2)",
+   "icon": {
+    "color": "gray",
+    "icon": "glyphicon-industry"
+   }
+  },
+  "Consorzio Bonifica Bradano e Metaponto": {
+   "coords": [
+    40.67,
+    16.61
+   ],
+   "desc": "<b>Consorzio di Bonifica di Bradano e Metaponto</b><br>Gestisce l'irrigazione nella pianura metapontina e aree circostanti, utilizzando acque da vari invasi (es. San Giuliano, Serra del Corvo).",
+   "icon": {
+    "color": "darkgreen",
+    "icon": "glyphicon-leaf"
+   }
+  },
+  "Consorzio Bonifica Vulture Alto Bradano": {
+   "coords": [
+    40.95,
+    15.83
+   ],
+   "desc": "<b>Consorzio di Bonifica Vulture Alto Bradano</b><br>Gestisce l'irrigazione nelle aree del Vulture e Alto Bradano, servito dagli schemi Ofanto e Basento-Bradano.",
+   "icon": {
+    "color": "darkgreen",
+    "icon": "glyphicon-leaf"
+   }
+  },
+  "Consorzio Bonifica Stornara e Tara": {
+   "coords": [
+    40.58,
+    17.0
+   ],
+   "desc": "<b>Consorzio di Bonifica Stornara e Tara (Puglia)</b><br>Importante utente irriguo in Puglia servito dal sistema interregionale (Schema Jonico-Sinni).",
+   "icon": {
+    "color": "darkgreen",
+    "icon": "glyphicon-leaf"
+   }
+  },
+  "Consorzio Bonifica Ferro e Sparviero": {
+   "coords": [
+    40.1,
+    16.55
+   ],
+   "desc": "<b>Consorzio di Bonifica Ferro e Sparviero (Calabria)</b><br>Utente irriguo in Calabria servito dallo Schema Jonico-Sinni (acque Sinni).",
+   "icon": {
+    "color": "darkgreen",
+    "icon": "glyphicon-leaf"
+   }
+  },
+  "Principali Sorgenti Appenniniche": {
+   "coords": [
+    40.2,
+    15.8
+   ],
+   "desc": "<b>Principali Sorgenti Appenniniche</b><br>Numerose sorgenti lungo la dorsale appenninica (es. area Frida, Mercure, Vulture) alimentano la rete idrica minore e, in parte, gli acquedotti locali. La loro mappatura puntuale non è inclusa. (Fonte: quarry.pdf)",
+   "icon": {
+    "color": "blue",
+    "icon": "glyphicon-certificate"
+   }
+  },
+  "Senise": {
+   "coords": [
+    40.15,
+    16.28
+   ],
+   "desc": "<b>Senise</b><br>Località nei pressi della Diga di Monte Cotugno.",
+   "icon": {
+    "color": "black",
+    "icon": "glyphicon-map-marker"
+   }
+  },
+  "Missanello (Paese)": {
+   "coords": [
+    40.27,
+    16.17
+   ],
+   "desc": "<b>Missanello</b><br>Località vicina alla centrale e al potabilizzatore omonimi, serviti dalla Diga del Pertusillo.",
+   "icon": {
+    "color": "black",
+    "icon": "glyphicon-map-marker"
+   }
+  },
+  "Ferrandina (Area Ind.)": {
+   "coords": [
+    40.5,
+    16.55
+   ],
+   "desc": "<b>Area Industriale Ferrandina (Val Basento)</b><br>Importante utenza industriale servita dallo schema Basento (es. tramite traversa Orto del Tufo).",
+   "icon": {
+    "color": "gray",
+    "icon": "glyphicon-cog"
+   }
+  }
+ }
+}
